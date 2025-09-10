@@ -1,0 +1,24 @@
+# Core
+torch
+llama-cpp-python==0.3.16
+huggingface-hub
+python-dotenv
+pandas
+numpy
+
+# Web / UI
+gradio==5.0.0
+fastapi
+uvicorn
+
+# Utils
+pillow
+requests
+tqdm
+
+# Optional (for hospital fuzzy matching)
+rapidfuzz
+faker   # only needed if you regenerate mock hospitals
+
+# Report / Notebook extras
+matplotlib
